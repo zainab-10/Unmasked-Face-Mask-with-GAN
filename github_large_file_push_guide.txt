@@ -1,0 +1,17 @@
+git init
+git lfs install
+git lfs track "*.psd"
+git add .gitattributes
+git add .
+git commit -m "Added design file"
+git remote add origin https://github.com/zainab-10/Unmasked-Face-Mask-with-GAN.git
+git push origin master
+
+
+if want to checkout from existing branch and wants to add in new branch,
+git branch
+git checkout <branch_name>
+git push -f origin <branch_name>
+
+check repository existance,
+git remote -v
